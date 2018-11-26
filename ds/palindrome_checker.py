@@ -4,7 +4,9 @@ def pal_checker(s):
     """
     s: string
     """
-    
+    s_list = s.split()
+    s = ''.join(s_list) # ignore blank
+
     char_deque = Deque()
     flag = True
 
@@ -21,3 +23,4 @@ def pal_checker(s):
 
 print(pal_checker("lsdkjfskf"))
 print(pal_checker("radar"))
+print(pal_checker("I PREFER PI"))
