@@ -18,4 +18,4 @@ class Stack:
         return len(self.items)
 
     def traverse(self):
-        print(self.items)
+        return self.items
